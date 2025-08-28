@@ -1,45 +1,10 @@
-/* ================= Reset & base ================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.bijoy {
-  background-color: brown;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 40px;
-}
 
-.webname {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.webname h1 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-right: 40px;
-}
-
-.webname nav {
-  display: flex;
-  gap: 30px;
-}
-
-.webname nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-.webname nav a:hover {
-  color: yellow;
-}
 /* ================= Layout ================= */
 .container {
     background: url(./sadkjvaefsbjk.jpg) no-repeat center center;
@@ -69,7 +34,7 @@
 
 /* ================= Right content ================= */
 .top-right {
-    width: 90%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
